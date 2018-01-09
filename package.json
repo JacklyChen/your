@@ -3,7 +3,8 @@
   "private": true,
   "description": "your packages",
   "scripts": {
-    "test": "echo test"
+    "bootstrap": "lerna bootstrap",
+    "publish": "lerna publish"
   },
   "repository": {
     "type": "git",
