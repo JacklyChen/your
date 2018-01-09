@@ -1,0 +1,16 @@
+{
+  "name": "@your/rand-int",
+  "version": "0.1.0",
+  "description": "获取指定范围的随机整数",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourjs/your.git"
+  },
+  "keywords": [],
+  "author": "zhuweiyou <i@zhuweiyou.com> (https://zhuweiyou.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourjs/your/issues"
+  },
+  "homepage": "https://github.com/yourjs/your#readme"
+}
