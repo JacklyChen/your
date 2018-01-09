@@ -1,6 +1,6 @@
 {
   "name": "@your/rand-int",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "获取指定范围的随机整数",
   "repository": {
     "type": "git",
