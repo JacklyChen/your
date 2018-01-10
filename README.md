@@ -5,3 +5,10 @@
 [![NPM Version](https://img.shields.io/npm/v/your.svg)](https://www.npmjs.com/package/your)
 
 常用模块
+
+- [源码](https://github.com/yourjs/your)
+- [文档](https://yourjs.github.io)
+
+```bash
+npm i your
+```

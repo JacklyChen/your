@@ -9,6 +9,7 @@ cache:
 
 script:
   - if [[ $TRAVIS_BRANCH == 'master' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
+    \cp -rf README.md doc
     cd doc;
     npm i;
     npm run build;
