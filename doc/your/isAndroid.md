@@ -10,15 +10,11 @@
 
 ```js
 import isAndroid from 'your/src/isAndroid'
-```
 
-当前环境
-```js
+// 当前环境
 isAndroid()
-```
 
-手动传入
-```js
+// 手动传入
 isAndroid('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36')
 ```
 

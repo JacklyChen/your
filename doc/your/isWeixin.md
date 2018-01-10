@@ -10,15 +10,11 @@
 
 ```js
 import isWeixin from 'your/src/isWeixin'
-```
 
-当前环境
-```js
+// 当前环境
 isWeixin()
-```
 
-手动传入
-```js
+// 手动传入
 isWeixin('Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36')
 ```
 

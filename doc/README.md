@@ -1,8 +1,3 @@
 # your
 
-常用模块
-
-### 安装
-```bash
-npm i your
-```
+常用模块 https://github.com/yourjs/your
