@@ -1,0 +1,16 @@
+{
+  "name": "your",
+  "version": "0.0.5",
+  "description": "常用模块",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourjs/your.git"
+  },
+  "author": "zhuweiyou <i@zhuweiyou.com> (https://zhuweiyou.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourjs/your/issues"
+  },
+  "homepage": "https://github.com/yourjs/your#readme"
+}

@@ -1,0 +1,12 @@
+{
+  "title": "your",
+  "author": "zhuweiyou",
+  "description": "your docs",
+  "language": "zh-hans",
+  "plugins": [
+    "theme-vuejs"
+  ],
+  "styles": {
+    "website": "styles/website.css"
+  }
+}

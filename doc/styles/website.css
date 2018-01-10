@@ -1,0 +1,4 @@
+[id^="carbonads"],
+.book-summary .summary > li:last-child {
+    display: none !important;
+}

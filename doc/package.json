@@ -1,0 +1,15 @@
+{
+  "name": "your-docs",
+  "description": "your docs",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.2"
+  },
+  "scripts": {
+    "postinstall": "gitbook install",
+    "dev": "gitbook serve",
+    "build": "gitbook build . ../docs"
+  },
+  "dependencies": {
+    "gitbook-plugin-theme-vuejs": "^1.1.0"
+  }
+}

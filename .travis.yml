@@ -1,0 +1,26 @@
+language: node_js
+
+node_js:
+  - '9'
+
+cache:
+  directories:
+    - node_modules
+
+script:
+  - if [[ $TRAVIS_BRANCH == 'master' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
+    cd doc;
+    npm i;
+    npm run build;
+    cd ../docs;
+    git init;
+    git config user.name 'Travis CI';
+    git config user.email 'i@zhuweiyou.com';
+    git add .;
+    git commit -m 'build docs';
+    git push https://${GH_TOKEN}@github.com/yourjs/yourjs.github.io.git master -f;
+    fi
+
+branches:
+  only:
+    - master
